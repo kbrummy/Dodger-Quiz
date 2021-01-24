@@ -6,94 +6,97 @@ var time;
 var questions = [
   {
     question:
-      "What song do Timon and Pumba teach Simba in the 'The Lion King?'",
+      "On April 18, 1958, The Dodgers baseball club, formerly from the Flatbush section of Brooklyn in New York, played their first game on the Pacific Coast as the Los Angeles Dodgers. What venue served as the site for the opening day game?",
     answers: {
-      a: "Can You Feel The Love Tonight",
-      b: "Hakuna Matata",
-      c: "I Just Can't Wait To Be King",
-    },
-    correctAnswer: "b",
-  },
-  {
-    question: "What group of animals raise Tarzan in the 'Tarzan' film?",
-    answers: {
-      a: "Wolves",
-      b: "Pandas",
-      c: "Gorillas",
-    },
-    correctAnswer: "c",
-  },
-  {
-    question: "Who visits the workshop and brings Pinocchio to life?",
-    answers: {
-      a: "A blue fairy",
-      b: "A pink fairy",
-      c: "Eeyore",
-    },
-    correctAnswer: "a",
-  },
-  {
-    question: "What is the name of Elsa’s younger sister in 'Frozen?'",
-    answers: {
-      a: "Princess Buttercup",
-      b: "Princess Jasmine",
-      c: "Princess Anna",
-    },
-    correctAnswer: "c",
-  },
-  {
-    question: "What is the name of Wendy’s dog in Peter Pan?",
-    answers: {
-      a: "Bolto",
-      b: "Nana",
-      c: "Chip",
-    },
-    correctAnswer: "b",
-  },
-  {
-    question: "What does Hakuna Matata mean?",
-    answers: {
-      a: "No Worries",
-      b: "Hangloose",
-      c: "See you later",
-    },
-    correctAnswer: "a",
-  },
-  {
-    question: "How old is Crush in Finding Nemo?",
-    answers: {
-      a: "233",
-      b: "43",
-      c: "150 (and still young!)",
-    },
-    correctAnswer: "c",
-  },
-  {
-    question:
-      "Emperor Kuzco turns into what animal in The Emperor’s New Groove?",
-    answers: {
-      a: "Zebra",
-      b: "Cow",
-      c: "Llama",
-    },
-    correctAnswer: "c",
-  },
-  {
-    question: "All you need is a little faith, trust, and what else?",
-    answers: {
-      a: "A Jetpack",
-      b: "Pixie Dust",
-      c: "Sugar",
+      a: "StubHub Center",
+      b: "Los Angeles Coliseum",
+      c: "Petco Park",
     },
     correctAnswer: "b",
   },
   {
     question:
-      "What name does Mulan pick for herself while pretending to be a man?",
+      "Which former Red Sox player wore the number 99 for the Dodgers in 2009?",
     answers: {
-      a: "Ping",
-      b: "Ling",
-      c: "Chew",
+      a: "Andre Ethier",
+      b: "Juan Pierre",
+      c: "Manny Ramirez",
+    },
+    correctAnswer: "c",
+  },
+  {
+    question:
+      "Who was the manager of the 1963 and 1965 Los Angeles Dodgers championship teams?",
+    answers: {
+      a: "Walter Alston",
+      b: "Leo Durocher",
+      c: "Tommy Lasorda",
+    },
+    correctAnswer: "a",
+  },
+  {
+    question: "Where did the Dodgers play before Los Angeles?",
+    answers: {
+      a: "Baltimore",
+      b: "St Luis",
+      c: "Brooklyn",
+    },
+    correctAnswer: "c",
+  },
+  {
+    question:
+      "When right fielder, Shawn Green, broke the Dodgers franchise record, in 2001, for most homeruns in a season, whose record did he beat?",
+    answers: {
+      a: "Mike Piazza",
+      b: "Gary Sheffield",
+      c: "Duke Snider",
+    },
+    correctAnswer: "b",
+  },
+  {
+    question: "Dodger Stadium is located in which Los Angeles park?",
+    answers: {
+      a: "Elysian Park",
+      b: "Exposition Park",
+      c: "Palisades Park",
+    },
+    correctAnswer: "a",
+  },
+  {
+    question: "What team was not in the Dodgers division in 2006?",
+    answers: {
+      a: "New York Mets",
+      b: "St Louis Cardinals",
+      c: "New York Yankees",
+    },
+    correctAnswer: "c",
+  },
+  {
+    question: "The nickname 'Dodgers' originally referred to dodging ------?",
+    answers: {
+      a: "Horse droppings",
+      b: "Police",
+      c: "Trolleys",
+    },
+    correctAnswer: "c",
+  },
+  {
+    question:
+      "Which Dodger was the youngest player ever elected to the Baseball Hall of Fame?",
+    answers: {
+      a: "Pee Wee Reese",
+      b: "Sandy Koufax",
+      c: "Duke Snider",
+    },
+    correctAnswer: "b",
+  },
+  {
+    question:
+      "What legendary broadcaster called Dodger games from 1950 through 2016?",
+    answers: {
+      a: "Vin Scully",
+      b: "Charley Steiner",
+      c: "Red Barber",
     },
     correctAnswer: "a",
   },
