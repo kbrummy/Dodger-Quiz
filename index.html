@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Code Quiz</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div id="highScore">
+      <audio id="player" controls autoplay>
+        <source
+          src="/Users/kristinbrumfield/Desktop/Dodger-Quiz/01 - I Love L.A..mp3"
+          type="audio/mp3"
+        />
+        Your browser does not support the audio element.
+      </audio>
+      <button id="scoreBtn">View High Scores</button>
+      <span id="timer"></span>
+    </div>
+    <div id="intro">
+      <figure class="highlight">
+        <h1 class="welcome">LA Dodger Quiz!</h1>
+        <h2 id="instructions">
+          You think you're a Dodger fan? Test your knowledge on the LA team with
+          this quiz! Good luck!
+        </h2>
+        <button class="startButton" id="countdown">Begin Quiz!</button>
+      </figure>
+    </div>
+
+    <div class="container">
+      <figure class="highlight">
+        <div id="quiz" class="hide">
+          <!-- span for question. answers as radio buttons-->
+          <h2 id="quizQuestion">Question</h2>
+          <div id="answer-btn">
+            <button id="ans1" class="button">Answer 1</button>
+            <button id="ans2" class="button">Answer 2</button>
+            <button id="ans3" class="button">Answer 3</button>
+          </div>
+        </div>
+      </figure>
+    </div>
+    <div id="results" class="container hide">
+      <button id="restart">Restart Quiz!</button>
+      <div id="inputResults">
+        <figure class="highlight">
+          <span class="input-font">Your Score: <span id="score"></span></span>
+          <label class="input-font">Please enter your initials:</label>
+          <input id="initials" type="text" placeholder="initials here" />
+          <button id="submit-score">Submit Score</button>
+        </figure>
+      </div>
+    </div>
+    <div id="otherScores" class="container hide"></div>
+
+    <script src="script.js"></script>
+  </body>
+</html>

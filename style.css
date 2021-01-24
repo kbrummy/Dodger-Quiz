@@ -1,0 +1,123 @@
+body {
+  background-image: url(/Users/kristinbrumfield/Desktop/Dodger-Quiz/background.jpg);
+}
+
+/* Top Section */
+#timer {
+  position: relative;
+  float: right;
+  font-size: 150%;
+  width: 10%;
+  height: 40%;
+  color: white;
+  background-color: rgb(3, 37, 148);
+  border-radius: 100px;
+  text-align: center;
+}
+
+#scoreBtn {
+  position: relative;
+  float: right;
+  font-size: 150%;
+  width: 20%;
+  height: 40%;
+  color: white;
+  background-color: rgb(3, 37, 148);
+  border-radius: 25px;
+}
+
+/* Intro */
+
+.highlight {
+  background-color: rgba(0, 94, 255, 0.5);
+}
+
+#intro {
+  position: absolute;
+  right: 100px;
+  width: 800px;
+  height: 500px;
+  text-align: center;
+  padding: 260px 100px;
+}
+
+.startButton {
+  position: relative;
+  margin: auto;
+  font-size: 100%;
+  width: 35%;
+  height: 35px;
+  color: white;
+  background-color: rgb(3, 37, 148);
+  border-radius: 25px;
+  cursor: pointer;
+  display: block;
+}
+
+/* Quiz */
+.container {
+  position: absolute;
+  right: 100px;
+  padding: 260px 100px;
+  text-align: center;
+}
+
+.button {
+  margin: auto;
+  font-size: 100%;
+  color: white;
+  background-color: rgb(3, 37, 148);
+  border-radius: 25px;
+  padding: 10px 24px;
+  cursor: pointer;
+  display: block;
+}
+
+.button:hover {
+  background-color: rgb(8, 61, 233);
+}
+
+.hide {
+  display: none;
+}
+
+/* Results */
+
+#restart {
+  position: absolute;
+  top: 0;
+  right: 0;
+  font-size: 130%;
+  color: white;
+  background-color: rgb(3, 37, 148);
+  border-radius: 25px;
+}
+
+#inputResults {
+  position: absolute;
+  top: 10px;
+  width: 400px;
+  height: 300px;
+
+  text-align: center;
+  color: white;
+  font-size: 140%;
+}
+
+#submit-score {
+  margin-top: 40px;
+  margin-bottom: 40px;
+  font-size: 100%;
+  color: white;
+  background-color: rgb(3, 37, 148);
+  border-radius: 25px;
+}
+
+#otherScores {
+  position: absolute;
+  margin-top: 40px;
+  /* margin-left: 1575px; */
+  text-align: center;
+  color: white;
+  font-size: 140%;
+}
